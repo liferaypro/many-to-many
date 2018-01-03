@@ -1,0 +1,9 @@
+Bundle-Name: many-to-many-api
+Bundle-SymbolicName: com.yowshu.demo.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.yowshu.demo.exception,\
+	com.yowshu.demo.model,\
+	com.yowshu.demo.service,\
+	com.yowshu.demo.service.persistence
+-includeresource: META-INF/service.xml=../many-to-many-service/service.xml
